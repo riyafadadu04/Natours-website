@@ -34,14 +34,13 @@
     }
   }
 
-
-  /*  -- original code --
+/*  original code -- 
   &__input:placeholder-shown +  &__label{
       opacity: 0;
       visibility: hidden;
       transform: translateY(-4rem);
   }
-  */
+*/
 
   &__input:focus + &__label {
     transform: translateY(0.1rem);

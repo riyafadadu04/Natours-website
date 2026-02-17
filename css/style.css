@@ -519,15 +519,6 @@ body {
   transform: translateY(-1rem) scale(1.03);
 }
 
-.form {
-  /*  -- original code --
-  &__input:placeholder-shown +  &__label{
-      opacity: 0;
-      visibility: hidden;
-      transform: translateY(-4rem);
-  }
-  */
-}
 .form__group:not(:last-child) {
   margin-bottom: 2rem;
 }
